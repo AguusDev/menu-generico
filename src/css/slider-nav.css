@@ -1,0 +1,79 @@
+
+/* Marcas patrocinadoras*/
+
+.patrocinios-container{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    align-items:center;
+    column-gap: 10px;
+
+    overflow: scroll;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 3px;
+    height: 70px;
+}
+
+.patrocinios-container::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+.patrocinios-container::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #2c2b2b;
+}
+
+.patrocinios-item{
+    transition: .5s all;
+    list-style: none;
+    padding: 15px 0;
+    width: 170px;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px #2c2b2b;
+}
+
+.categorias-navs{
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 1px solid #2c2b2b;
+    padding: 10px 0;
+    margin: 5px 20%;
+    font-weight: bold;
+}
+
+.patrocinios-item:hover{
+    cursor: pointer;
+    background-color: #2c2b2b;
+    color: #f0f0f0;
+    box-shadow: 1px 1px 10px 5px #2c2b2b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

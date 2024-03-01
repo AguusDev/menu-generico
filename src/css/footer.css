@@ -1,0 +1,43 @@
+:root{
+    --negro : #2D3142;
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+    padding: 10px 0;
+    height: 100px;
+    background-color: var(--negro);
+}
+
+.redes-container{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2px;
+
+    padding: 5px 50px;
+
+    
+}
+
+.redes-item{
+    width: 50px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.copy-container{
+    display: flex;
+    justify-content: center;
+}
+
+.copy-item{
+    font-size: 8px;
+    color: var(--blanco);
+    cursor:not-allowed;
+}
+
